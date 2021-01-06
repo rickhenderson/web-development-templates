@@ -3,19 +3,50 @@
 <head>
   <title>Title of the document</title>
   <link rel="stylesheet" type="text/css" href="url" title="description_of_style">
+  <script src="URL" /> 
+  <style>
+    <!-- Just for some basic styling. Complete styling with CSS should be done in a seperate file. -->
+    * {
+      border: initial;
+      .outlined-red;
+    }
+    .outlined-red {
+      border: 1px dashed red;
+    }
+    
+    body, header, section, article, nav, footer {
+      background-color: initial;
+      color: initial;
+    }
+    
+  </style>
 </head>
 <body>
-  <nav>HOME ABOUT US CONTACT</nav>
-  
   <header>
-    For introducing the page.
+    For introducing the page. This template uses <b>semantic</b> elements.
+    For more details, see this page: <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML5 Semantic Elements</a>
   </header>
+  <nav>HOME ABOUT US CONTACT</nav>
   <aside>
-    
+    Assigns can be used for pullquotes, advertisements, etc.
   </aside>
+  <section id="intro">
+    Sections can help define the structure of your document.
+  </section>
   
-  <h1>This is a heading</h1>
-  <p>This is a paragraph.</p>
+  <section id="main-content">
+    
+    <h1>What about articles?</h1>
+    <p>While this section and the above section are components of the document, and article&emdash;like thee one below&emdash; 
+       should be "possible to distribute it independently from the rest of the web site" and "work independently" according to W3Schools.
+    </p>
+  </section>
+  
+  <article id="blog-post-article">
+   <h2>Getting Good at SEO</h2>
+    <p>SEO is important if you want to rank on search engines like Google and Bing. One way to rank higher is to use <strong>semantic</strong>
+       elements when writing your HTML.</p>  
+  </article>
   
   <footer>
   &#169; The Author, 2021
